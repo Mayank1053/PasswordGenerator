@@ -119,7 +119,7 @@ const PasswordGenerator = () => {
             type={showPassword ? "text" : "password"}
             value={password}
             readOnly
-            className="w-full pr-10 py-2 border rounded-md"
+            className="w-full pr-10 py-2 px-2 border rounded-md"
             placeholder="Generated password"
           />
           <button
